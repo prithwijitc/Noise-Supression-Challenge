@@ -11,7 +11,7 @@
 
 Download the ``` .onnx ``` checkpoint from the ```check-point``` directory and store it in your ```$CHECKPOINT DIRECTORY$```.
 
-### Step3 Running the Baseline [GPU required]
+### Step2 Running the Baseline [GPU required]
 
 Install ```requirements```
 
@@ -26,8 +26,9 @@ Run on GPU
 python3 run.py
 ```
 
+### Alternative 
 
-Run the ``` run.ipynb ``` file on Google Colabs if you don't have local GPU access
+Run the ``` run.ipynb ``` file on Google Colabs if you don't have local GPU access. Make sure to upload the ```.onnx``` checkpoint to drive and mount
 
 ## Audio FIles (DATASET)
 
