@@ -50,3 +50,29 @@ ___
 
 The clean and the noisy audio files are stored in ```audio_samples``` 
 
+____
+## RESULTS
+Each method was applied to the noisy signals present in the ```audio_samples/noisy``` directory and pass into the ```STOI_scorer.py``` against the clean version present in ```audio_samples/clean``` directory to calculate the below-mentioned scores.
+### NSNet2
+
+#### Table: The STOI score for the NSNet2 model on female speech with different additive noise
+
+| **SNR value** | **White Noise** | **Babble Noise** | **Factory Noise** |
+|:-------------:|:---------------:|:----------------:|:-----------------:|
+| 0             | 0.854522925     | 0.785587317      | 0.810069588       |
+| 5             | 0.911464025     | 0.886194233      | 0.895671794       |
+| 10            | 0.950381398     | 0.945235574      | 0.946084761       |
+| 15            | 0.973417992     | 0.97344783       | 0.973501638       |
+| 20            | 0.986519376     | 0.986543351      | 0.987445381       |
+
+#### Table: The STOI score for the NSNet2 model on male speech with different additive noise
+
+| **SNR value** | **White Noise** | **Babble Noise** | **Factory Noise** |
+|:-------------:|:---------------:|:----------------:|:-----------------:|
+| 0             | 0.803318612     | 0.747798258      | 0.769623583       |
+| 5             | 0.867076369     | 0.844080284      | 0.858208708       |
+| 10            | 0.912214369     | 0.905727745      | 0.910814637       |
+| 15            | 0.941520555     | 0.940993113      | 0.942007813       |
+| 20            | 0.959001587     | 0.960383994      | 0.960543711       |
+
+
