@@ -52,10 +52,32 @@ The clean and the noisy audio files are stored in ```audio_samples```
 
 ____
 ## RESULTS
-Each method was applied to the noisy signals present in the ```audio_samples/noisy``` directory and pass into the ```STOI_scorer.py``` against the clean version present in ```audio_samples/clean``` directory to calculate the below-mentioned scores.
+Each method was applied to the noisy signals present in the ```audio_samples/noisy``` directory and passed into the ```STOI_scorer.py``` against the clean version present in ```audio_samples/clean``` directory to calculate the below-mentioned scores.
+### Spectral Subtraction
+
+#### Table 1: The STOI score for the Spectral Subtraction model on female speech with different additive noise
+
+| **SNR value** | **White Noise** | **Babble Noise** | **Factory Noise** |
+|:-------------:|:---------------:|:----------------:|:-----------------:|
+| 0             | 0.764395392     | 0.713892489      | 0.693418547       |
+| 5             | 0.786096717     | 0.843549012      | 0.823020802       |
+| 10            | 0.769182674     | 0.917590277      | 0.90786494        |
+| 15            | 0.865750348     | 0.960017295      | 0.960974869       |
+| 20            | 0.959871469     | 0.978716665      | 0.980476255       |
+
+#### Table 2: The STOI score for the Spectral Subtraction model on male speech with different additive noise
+
+| **SNR value** | **White Noise** | **Babble Noise** | **Factory Noise** |
+|:-------------:|:---------------:|:----------------:|:-----------------:|
+| 0             | 0.728564718     | 0.629617858      | 0.598473262       |
+| 5             | 0.732461151     | 0.763361273      | 0.735383703       |
+| 10            | 0.769693403     | 0.862992213      | 0.844110818       |
+| 15            | 0.84544193      | 0.913327423      | 0.898017772       |
+| 20            | 0.93019754      | 0.948553703      | 0.943028037       |
+
 ### NSNet2
 
-#### Table: The STOI score for the NSNet2 model on female speech with different additive noise
+#### Table 3: The STOI score for the NSNet2 model on female speech with different additive noise
 
 | **SNR value** | **White Noise** | **Babble Noise** | **Factory Noise** |
 |:-------------:|:---------------:|:----------------:|:-----------------:|
@@ -65,7 +87,7 @@ Each method was applied to the noisy signals present in the ```audio_samples/noi
 | 15            | 0.973417992     | 0.97344783       | 0.973501638       |
 | 20            | 0.986519376     | 0.986543351      | 0.987445381       |
 
-#### Table: The STOI score for the NSNet2 model on male speech with different additive noise
+#### Table 4: The STOI score for the NSNet2 model on male speech with different additive noise
 
 | **SNR value** | **White Noise** | **Babble Noise** | **Factory Noise** |
 |:-------------:|:---------------:|:----------------:|:-----------------:|
