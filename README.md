@@ -35,7 +35,7 @@ Run the ``` run.ipynb ``` file on Google Colabs if you don't have local GPU acce
 
 ___
 
-### Audio FIles
+### Audio Files
 
 The clean and the noisy audio files are stored in ```audio_samples``` 
 
