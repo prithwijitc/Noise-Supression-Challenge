@@ -1,17 +1,20 @@
-# 6255 Noise Supression Challenge
+# ECE6255: Noise Supression Challenge
 
+This is the repository for ECE6255 Term Project: Noise Suppression for Speech Signals.
 
-## Spectral Subtraction 
+Submitted by: [Aanish Naair](anair319@gatech.edu), [Ningyuan Yang](nyang65@gatech.edu), [Prithwijit Chowdhury](pchowdhury6@gatech.edu) and [Sumedh Ravi](sravi71@gatech.edu).
 
-## MCRA
+## 1. Spectral Subtraction 
 
-## NSNet2
+## 2. MCRA
+
+## 3. NSNet2
 
 ### Step1: Checkpoint download
 
-Download the ``` .onnx ``` checkpoint from the ```check-point``` directory and store it in your ```$CHECKPOINT DIRECTORY$```.
+Download the [.onnx](check-point/nsnet2-20ms-baseline.onnx) checkpoint from the ```check-point``` directory and store it in your ```$CHECKPOINT DIRECTORY$```.
 
-### Step2 Running the Baseline [GPU required]
+### Step2: Running the Baseline [GPU required]
 
 Install ```requirements```
 
@@ -30,9 +33,7 @@ python3 run.py
 
 Run the ``` run.ipynb ``` file on Google Colabs if you don't have local GPU access. Make sure to upload the ```.onnx``` checkpoint to drive and mount
 
-## Audio FIles (DATASET)
+## Audio FIles
 
-The clean and the noisy audio files are stored here: 
-```sh
-$ADD DRIVE LINK TO AUDIO ZIP FILES$
-```
+The clean and the noisy audio files are stored in ```audio_samples``` 
+
