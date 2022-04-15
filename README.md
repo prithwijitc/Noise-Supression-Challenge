@@ -21,7 +21,7 @@ Install ```requirements```
 ```sh
 pip install -r requirements.txt
 ```
-Replace ```$CHECKPOINT DIRECTORY$``` , ```$NOISY .WAV FILE$``` and ```$OUTPUT DIRECTORY$``` in ```run.py``` with the location of your model checkpoint, noise .wav file and output folder to store the filter audio file respectively.
+Replace ```$CHECKPOINT DIRECTORY$``` , ```$NOISY .WAV FILE$``` and ```$OUTPUT DIRECTORY$``` in ```run.py``` with the location of your model checkpoint, noisy ```.wav``` file and output folder to store the filter audio file respectively.
 
 Run on GPU
 
