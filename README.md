@@ -57,7 +57,7 @@ Each method was applied to the noisy signals present in the ```audio_samples/noi
 
 #### Table 1: The STOI score for the Spectral Subtraction model on female speech with different additive noise
 
-| **SNR value** | **White Noise** | **Babble Noise** | **Factory Noise** |
+| **SNR value(in dB)** | **White Noise** | **Babble Noise** | **Factory Noise** |
 |:-------------:|:---------------:|:----------------:|:-----------------:|
 | 0             | 0.764395392     | 0.713892489      | 0.693418547       |
 | 5             | 0.786096717     | 0.843549012      | 0.823020802       |
@@ -67,7 +67,7 @@ Each method was applied to the noisy signals present in the ```audio_samples/noi
 
 #### Table 2: The STOI score for the Spectral Subtraction model on male speech with different additive noise
 
-| **SNR value** | **White Noise** | **Babble Noise** | **Factory Noise** |
+| **SNR value(in dB)** | **White Noise** | **Babble Noise** | **Factory Noise** |
 |:-------------:|:---------------:|:----------------:|:-----------------:|
 | 0             | 0.728564718     | 0.629617858      | 0.598473262       |
 | 5             | 0.732461151     | 0.763361273      | 0.735383703       |
@@ -79,7 +79,7 @@ Each method was applied to the noisy signals present in the ```audio_samples/noi
 
 #### Table 3: The STOI score for the NSNet2 model on female speech with different additive noise
 
-| **SNR value** | **White Noise** | **Babble Noise** | **Factory Noise** |
+| **SNR value(in dB)** | **White Noise** | **Babble Noise** | **Factory Noise** |
 |:-------------:|:---------------:|:----------------:|:-----------------:|
 | 0             | 0.854522925     | 0.785587317      | 0.810069588       |
 | 5             | 0.911464025     | 0.886194233      | 0.895671794       |
@@ -89,7 +89,7 @@ Each method was applied to the noisy signals present in the ```audio_samples/noi
 
 #### Table 4: The STOI score for the NSNet2 model on male speech with different additive noise
 
-| **SNR value** | **White Noise** | **Babble Noise** | **Factory Noise** |
+| **SNR value(in dB)** | **White Noise** | **Babble Noise** | **Factory Noise** |
 |:-------------:|:---------------:|:----------------:|:-----------------:|
 | 0             | 0.803318612     | 0.747798258      | 0.769623583       |
 | 5             | 0.867076369     | 0.844080284      | 0.858208708       |
