@@ -8,14 +8,14 @@ Submitted by: [Aanish Nair](mailto:anair319@gatech.edu), [Ningyuan Yang](mailto:
 
 ### Step1: Setup Directory
 
-Make sure that you have the main.m and spectralSubtraction.m files in the same directory. 
-Open MATLAB and make sure that you are in a working directory that has both the files in the same place. 
+Make sure that you have the ```main.m``` and ```spectralSubtraction.m``` files in the same directory. 
+Open ```MATLAB``` and make sure that you are in a working directory that has both the files in the same place. 
 
 ### Step2: Running the script
 
 Make sure you change the file paths to the clean and noisy speech files that you intend to use. 
 You can also include the path to where you want the reconstructed speech to be saved. 
-Run the script main.m by clicking the 'Run' button or by typing in 'main' in the command window. 
+Run the script ```main.m``` by clicking the 'Run' button or by typing in 'main' in the command window. 
 
 ## 2. MCRA
 
