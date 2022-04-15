@@ -2,8 +2,8 @@ import soundfile as sf
 from pystoi import stoi
 
 
-clean, fs = sf.read('/content/drive/MyDrive/audio_samples/clean/male.wav')
-denoised, fs = sf.read('/content/audio_samples/male_white_5_nsnet2-20ms-baseline.wav')
+clean, fs = sf.read('$CLEAN_WAV_FILE$')
+denoised, fs = sf.read('$FILTERED_WAV_FILE$')
 
 #making both audio files of the same length
 
