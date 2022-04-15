@@ -1,0 +1,8 @@
+numpy
+soundfile
+pathlib
+argparse
+onnxruntime
+torch
+scipy
+pystoi
