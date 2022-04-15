@@ -55,7 +55,11 @@ ____
 We used Short-Time Objective Intelligibility score (STOI) score as the evaluation metric to compare performance among different techniques. STOI denotes a correlation of short-time temporal envelopes between clean and separated speech, and has been shown to be positively correlated to human speech intelligibility score.
 
 ### Calculate your own STOI scores:
-Once you have generated your filtered signal from your noise ```.wav``` file you can calculate 
+Once you have generated your filtered signal from your noise ```.wav``` file you can calculate your STOI score by passing your ```filtered signal``` and ```clean``` signal into the ```STOI_scorer.py``` file
+```sh
+clean, fs = sf.read('$CLEAN_WAV_FILE$')
+denoised, fs = sf.read('$FILTERED_WAV_FILE$')
+```
 ## RESULTS
 Each method was applied to the noisy signals present in the ```audio_samples/noisy``` directory and passed into the ```STOI_scorer.py``` against the clean version present in ```audio_samples/clean``` directory to calculate the below-mentioned scores.
 ### Spectral Subtraction
