@@ -2,7 +2,7 @@
 
 This is the repository for ECE6255 Term Project: Noise Suppression for Speech Signals.
 
-Submitted by: [Aanish Naair](anair319@gatech.edu), [Ningyuan Yang](nyang65@gatech.edu), [Prithwijit Chowdhury](pchowdhury6@gatech.edu) and [Sumedh Ravi](sravi71@gatech.edu).
+Submitted by: [Aanish Naair](mailto:anair319@gatech.edu), [Ningyuan Yang](mailto:nyang65@gatech.edu), [Prithwijit Chowdhury](mailto:pchowdhury6@gatech.edu) and [Sumedh Ravi](mailto:sravi71@gatech.edu).
 
 ## 1. Spectral Subtraction 
 
@@ -33,7 +33,9 @@ python3 run.py
 
 Run the ``` run.ipynb ``` file on Google Colabs if you don't have local GPU access. Make sure to upload the ```.onnx``` checkpoint to drive and mount
 
-## Audio FIles
+___
+
+### Audio FIles
 
 The clean and the noisy audio files are stored in ```audio_samples``` 
 
