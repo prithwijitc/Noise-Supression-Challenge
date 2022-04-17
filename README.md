@@ -61,6 +61,7 @@ python3 run.py
 
 Run the ``` run.ipynb ``` file on Google Colabs if you don't have local GPU access. Make sure to upload the ```.onnx``` checkpoint to drive and mount
 
+The code for NSNet2 is forked from Microsofts repository for the [DNS Challenge](https://github.com/microsoft/DNS-Challenge).
 ___
 
 ### Audio Files
