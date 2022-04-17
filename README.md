@@ -18,7 +18,7 @@ You can also include the path to where you want the reconstructed speech to be s
 Run the script ```main.m``` by clicking the 'Run' button or by typing in 'main' in the command window. 
 
 ## 2. MCRA
-The functions of codes in the folder:
+### How to use codes in the folder
 
 1. Speech_Enhancement.m: To perform noise suppression.
 
@@ -31,6 +31,10 @@ The functions of codes in the folder:
 5. plot_wave.m: To plot waves of signals.
 
 6. plot_gain.m: To generate plots of STOI gain in the report.
+
+### Audio Files
+
+The clean and the noisy audio files are stored in ```audio_samples```
 
 ## 3. NSNet2
 
