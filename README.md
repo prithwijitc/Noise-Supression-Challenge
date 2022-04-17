@@ -97,9 +97,30 @@ Each method was applied to the noisy signals present in the ```audio_samples/noi
 | 15            | 0.84544193      | 0.913327423      | 0.898017772       |
 | 20            | 0.93019754      | 0.948553703      | 0.943028037       |
 
+### MCRA
+#### Table 3: The STOI score for the MCRA algorithm on female speech with different additive noise
+
+| **SNR value(in dB)** | **White Noise** | **Babble Noise** | **Factory Noise** |
+|:-------------:|:---------------:|:----------------:|:-----------------:|
+| 0             | 0.789572842     | 0.730013422      | 0.722507148       |
+| 5             | 0.870410297     | 0.842261115      | 0.840886682       |
+| 10            | 0.931425170     | 0.917922643      | 0.919574406       |
+| 15            | 0.967322659     | 0.962099647      | 0.963756331       |
+| 20            | 0.985977602     | 0.984296593      | 0.985493245       |
+
+#### Table 4: The STOI score for the MCRA algorithm on male speech with different additive noise
+
+| **SNR value(in dB)** | **White Noise** | **Babble Noise** | **Factory Noise** |
+|:-------------:|:---------------:|:----------------:|:-----------------:|
+| 0             | 0.725791143     | 0.650519418      | 0.654132316       |
+| 5             | 0.816207934     | 0.779103948      | 0.777781786       |
+| 10            | 0.880681926     | 0.870287679      | 0.866367288       |
+| 15            | 0.924501503     | 0.924806368      | 0.920573518       |
+| 20            | 0.952470337     | 0.953533491      | 0.950812644       |
+
 ### NSNet2
 
-#### Table 3: The STOI score for the NSNet2 model on female speech with different additive noise
+#### Table 5: The STOI score for the NSNet2 model on female speech with different additive noise
 
 | **SNR value(in dB)** | **White Noise** | **Babble Noise** | **Factory Noise** |
 |:-------------:|:---------------:|:----------------:|:-----------------:|
@@ -109,7 +130,7 @@ Each method was applied to the noisy signals present in the ```audio_samples/noi
 | 15            | 0.973417992     | 0.97344783       | 0.973501638       |
 | 20            | 0.986519376     | 0.986543351      | 0.987445381       |
 
-#### Table 4: The STOI score for the NSNet2 model on male speech with different additive noise
+#### Table 6: The STOI score for the NSNet2 model on male speech with different additive noise
 
 | **SNR value(in dB)** | **White Noise** | **Babble Noise** | **Factory Noise** |
 |:-------------:|:---------------:|:----------------:|:-----------------:|
