@@ -144,4 +144,5 @@ Each method was applied to the noisy signals present in the ```audio_samples/noi
 | 15            | 0.941520555     | 0.940993113      | 0.942007813       |
 | 20            | 0.959001587     | 0.960383994      | 0.960543711       |
 
-
+<img src="docs/tables-graphs/comparision of methods (STOI gain).png" width="500"> 
+*Fig: STOI gain for denoised female speech with white noise using three methods
