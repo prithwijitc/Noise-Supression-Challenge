@@ -18,6 +18,19 @@ You can also include the path to where you want the reconstructed speech to be s
 Run the script ```main.m``` by clicking the 'Run' button or by typing in 'main' in the command window. 
 
 ## 2. MCRA
+The functions of codes in the folder:
+
+1. Speech_Enhancement.m: To perform noise suppression.
+
+2. \algorithms\improved_mcra_est.m: The MRCA algorithm.
+
+3. add_noise.m: To generate noisy speech audio files with different kinds of noise and different SNR.
+
+4. upsampling.ipynb: To change the sampling rate of signals.
+
+5. plot_wave.m: To plot waves of signals.
+
+6. plot_gain.m: To generate plots of STOI gain in the report.
 
 ## 3. NSNet2
 
