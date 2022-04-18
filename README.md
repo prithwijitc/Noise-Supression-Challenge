@@ -6,6 +6,8 @@ Submitted by: [Aanish Nair](mailto:anair319@gatech.edu), [Ningyuan Yang](mailto:
 
 ## 1. Spectral Subtraction 
 
+Code used can be found at : https://github.com/Gauri-Prajapati/Speech_Enhancement
+
 ### Step1: Setup Directory
 
 Make sure that you have the ```main.m```, ```spectruesub.m``` and ```stationary_noise_evaluate.m``` files in the same directory. 
