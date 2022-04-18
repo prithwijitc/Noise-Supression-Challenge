@@ -24,7 +24,10 @@ You can also include the path to where you want the reconstructed speech to be s
 Run the script ```main.m``` by clicking the 'Run' button or by typing in 'main' in the command window. 
 
 ## 2. MCRA
-### How to use codes in the folder
+
+Code used can be found at : https://github.com/Gauri-Prajapati/Speech_Enhancement
+
+### How to use codes in our folder
 
 ```Speech_Enhancement.m```: To perform noise suppression.
 
