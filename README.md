@@ -8,7 +8,7 @@ Submitted by: [Aanish Nair](mailto:anair319@gatech.edu), [Ningyuan Yang](mailto:
 
 ### Step1: Setup Directory
 
-Make sure that you have the ```main.m``` and ```spectralSubtraction.m``` files in the same directory. 
+Make sure that you have the ```main.m```, ```spectruesub.m``` and ```stationary_noise_evaluate.m``` files in the same directory. 
 Open ```MATLAB``` and make sure that you are in a working directory that has both the files in the same place. 
 
 ### Step2: Running the script
