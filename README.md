@@ -4,6 +4,19 @@ This is the repository for ECE6255 Term Project: Noise Suppression for Speech Si
 
 Submitted by: [Aanish Nair](mailto:anair319@gatech.edu), [Ningyuan Yang](mailto:nyang65@gatech.edu), [Prithwijit Chowdhury](mailto:pchowdhury6@gatech.edu) and [Sumedh Ravi](mailto:sravi71@gatech.edu).
 
+## In this repository:
+
+* ```ReadMe.pdf``` which will be helpful if you are downloading the zip file and running locally.
+* Folders containing code to all the methods:
+ 1. [Spectral Subraction](https://github.com/prithwijitc/Noise-Supression-Challenge/tree/main/Spectral%20Subtraction)
+ 2. [MCRA](https://github.com/prithwijitc/Noise-Supression-Challenge/tree/main/MCRA)
+ 3. [NSNet2](https://github.com/prithwijitc/Noise-Supression-Challenge/tree/main/NSNet2)
+* Audio samples (both noisy and clean) to use to run examples on the scripts
+* The STOI scorer to evaluate the performances
+* The Project Report
+* The Project Presentation (containing embedded audios and animation for ease of understanding)
+* Ouput graphs and extra scripts which might be relevant.
+
 ## 1. Spectral Subtraction 
 
 Code used can be found at : https://github.com/Gauri-Prajapati/Speech_Enhancement
