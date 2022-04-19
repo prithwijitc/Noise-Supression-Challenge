@@ -65,7 +65,7 @@ Code used can be found at : https://github.com/Gauri-Prajapati/Speech_Enhancemen
 
 Download the [.onnx](https://github.com/prithwijitc/Noise-Supression-Challenge/blob/main/NSNet2/check-point/nsnet2-20ms-baseline.onnx) checkpoint from the ```NSNet2/check-point``` directory and store it in your ```$CHECKPOINT DIRECTORY$``` or if you're running locally add the path ```NSNet2/check-point/nsnet2-20ms-baseline.onnx``` in place of ```$CHECKPOINT DIRECTORY$``` in the code.
 
-### Step2: Running the Baseline [GPU required]
+### Step2: Running the Baseline
 
 Install ```requirements```
 
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 ```
 Replace ```$CHECKPOINT DIRECTORY$``` , ```$NOISY .WAV FILE$``` and ```$OUTPUT DIRECTORY$``` in ```run.py``` with the location of your model checkpoint, noisy ```.wav``` file and output folder to store the filter audio file respectively.
 
-Run on GPU
+Run
 
 ```sh
 python3 run.py
@@ -82,7 +82,7 @@ python3 run.py
 
 ### Alternative 
 
-Run the ``` run.ipynb ``` file on Google Colabs if you don't have local GPU access. Make sure to upload the ```.onnx``` checkpoint to drive and mount
+Run the ``` run.ipynb ``` file on Google Colabs if you don't have local resources. Make sure to upload the ```.onnx``` checkpoint to drive and mount
 
 The code for NSNet2 is forked from Microsofts repository for the [DNS Challenge](https://github.com/microsoft/DNS-Challenge).
 ___
