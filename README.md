@@ -63,7 +63,7 @@ Code used can be found at : https://github.com/Gauri-Prajapati/Speech_Enhancemen
 
 ### Step1: Checkpoint download
 
-Download the [.onnx](check-point/nsnet2-20ms-baseline.onnx) checkpoint from the ```check-point``` directory and store it in your ```$CHECKPOINT DIRECTORY$```.
+Download the [.onnx](https://github.com/prithwijitc/Noise-Supression-Challenge/blob/main/NSNet2/check-point/nsnet2-20ms-baseline.onnx) checkpoint from the ```NSNet2/check-point``` directory and store it in your ```$CHECKPOINT DIRECTORY$```.
 
 ### Step2: Running the Baseline [GPU required]
 
