@@ -13,8 +13,8 @@ Submitted by: [Aanish Nair](mailto:anair319@gatech.edu), [Ningyuan Yang](mailto:
  3. [NSNet2](https://github.com/prithwijitc/Noise-Supression-Challenge/tree/main/NSNet2)
 * Audio samples (both noisy and clean) to use to run examples on the scripts
 * The STOI scorer to evaluate the performances
-* The Project Report
-* The Project Presentation (containing embedded audios and animation for ease of understanding)
+* The Project Report present in ```docs/```
+* The Project Presentation (containing embedded audios and animation for ease of understanding) present in ```docs/```
 * Ouput graphs and extra scripts which might be relevant.
 
 ## 1. Spectral Subtraction 
