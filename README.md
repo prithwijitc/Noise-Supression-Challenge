@@ -13,8 +13,8 @@ Submitted by: [Aanish Nair](mailto:anair319@gatech.edu), [Ningyuan Yang](mailto:
  3. [NSNet2](https://github.com/prithwijitc/Noise-Supression-Challenge/tree/main/NSNet2)
 * Audio samples (both noisy and clean) to use to run examples on the scripts
 * The STOI scorer to evaluate the performances
-* The Project Report present in ```docs/```
-* The Project Presentation (containing embedded audios and animation for ease of understanding) present in ```docs/```
+* The [Project Report](https://github.com/prithwijitc/Noise-Supression-Challenge/blob/main/docs/ECE%206255%20Project%20Report%20Team%207.pdf) present in ```docs/```
+* The [Project Presentation](https://github.com/prithwijitc/Noise-Supression-Challenge/blob/main/docs/Term%20Project%20Presentation%20Team%207.pptx)  (containing embedded audios and animation for ease of understanding) present in ```docs/```
 * Ouput graphs and extra scripts which might be relevant.
 
 ## 1. Spectral Subtraction 
@@ -58,10 +58,6 @@ Code used can be found at : https://github.com/Gauri-Prajapati/Speech_Enhancemen
 ```plot_wave.m```: To plot waves of signals.
 
 ```plot_gain.m```: To generate plots of STOI gain in the report.
-
-### Audio Files
-
-The clean and the noisy audio files are stored in ```audio_samples```
 
 ## 3. NSNet2
 
