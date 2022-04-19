@@ -23,7 +23,9 @@ Open ```MATLAB``` and make sure that you are in a working directory that has bot
 ### Step2: Running the script
 
 Make sure you change the file paths to the clean and noisy speech files that you intend to use. 
+
 You can also include the path to where you want the reconstructed speech to be saved. 
+
 Run the script ```main.m``` by clicking the 'Run' button or by typing in 'main' in the command window. 
 
 ## 2. MCRA
